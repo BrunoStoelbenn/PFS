@@ -1,0 +1,51 @@
+Para começar a usar o selenium, primeiramente devemos rodar os seguinte comandos no terminal:
+pip install selenium
+pip install webdriver-manager
+
+O Selenium é uma ferramenta poderosa de automação para navegadores web. Ele é amplamente utilizado para testar aplicações web, mas também pode ser usado para automatizar tarefas repetitivas em navegadores. Aqui está uma descrição das principais capacidades do Selenium:
+
+Principais Funcionalidades do Selenium
+
+1) Automação de Navegadores:
+
+O Selenium pode controlar vários navegadores, incluindo Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, entre outros.
+Permite abrir, fechar e interagir com abas e janelas do navegador.
+
+2) Interação com Elementos da Página:
+
+O Selenium pode localizar e interagir com elementos da página usando seletores como ID, nome, classe, tag, seletor CSS e XPath.
+Suporta ações como clicar, digitar texto, selecionar opções em menus suspensos, marcar/desmarcar caixas de seleção e rádio buttons, entre outras.
+
+3) Execução de JavaScript:
+
+Permite a execução de scripts JavaScript diretamente na página, o que pode ser útil para manipular o DOM ou interagir com APIs JavaScript.
+
+4) Automação de Formulários:
+
+Preenche e envia formulários automaticamente, simulando a entrada do usuário.
+
+5) Navegação entre Páginas:
+
+Pode navegar entre páginas web, clicando em links, botões ou submetendo formulários.
+Suporta navegação avançada como voltar, avançar e atualizar a página.
+
+6) Gestão de Cookies e Sessões:
+
+Pode adicionar, remover e gerenciar cookies.
+Mantém o estado da sessão entre diferentes interações, o que é útil para testes de login e fluxo de usuário.
+
+7) Captura de Tela:
+
+Captura screenshots da página atual, o que é útil para documentação ou depuração.
+
+8) Espera Explícita e Implícita:
+
+Suporta esperas explícitas e implícitas para aguardar elementos carregarem ou certas condições serem atendidas, ajudando a sincronizar a automação com o comportamento da página.
+
+9) Automação em Segundo Plano:
+
+Permite a execução de testes em modo headless (sem interface gráfica), o que é útil para integrações contínuas e execuções em servidores.
+
+10) Integração com Ferramentas de Teste:
+
+Pode ser integrado com frameworks de testes como unittest, pytest, TestNG, JUnit, entre outros, para criar suítes de testes automatizados.
