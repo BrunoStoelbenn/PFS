@@ -19,7 +19,7 @@ navegador.find_element('xpath', '//*[@id="loginform-username"]').send_keys("sua_
 
 navegador.find_element('xpath', '//*[@id="loginform-password"]').send_keys("sua_senha_virtual_unisc")
 
-time.sleep(5) # Pausa a execução por 5 segundos
+time.sleep(5) # Pausa a execução por 5 segundos para dar tempo de o botão de login carregar
 
 navegador.find_element('xpath', '//*[@id="login-form"]/div[5]/div[2]/button').click()
 
